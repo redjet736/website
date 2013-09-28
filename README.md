@@ -1,5 +1,5 @@
+
 Overview
-========
 
 Scratch CMS was an idea that Jack Chan and Andy Pierce had after a couple drinks in a Mexican bar one night. It was such a cool and useful idea that they decided to make it happen. The resulting content management system is a foundation for which hackers with just a tiny, tiny bit of Ruby on Rails experience can quickly create personal websites.
 
@@ -16,3 +16,4 @@ So, if you want to create your website from Scratch, here's what to do:
 For the instructions to set up the dev environment, click on LinuxSetup.md or MacSetup.md in the above Github project directory. If you're using Windows, you're on your own (create a virtual machine and install Linux on it).
 
 Once you're done with the setup, click on Post-Setup.md for some tips on customizing your home page, pushing to Git, and deploying on Heroku.
+
