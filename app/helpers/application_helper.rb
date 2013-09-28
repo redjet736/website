@@ -1,6 +1,6 @@
 module ApplicationHelper
 	def full_title(page_title)
-		base_title = "Scratch CMS"
+		base_title = "Andy's Site"
 		if page_title.empty?
 			base_title
 		else
