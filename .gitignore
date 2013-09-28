@@ -24,3 +24,6 @@ nohup.out
 
 # Ignore New Relic config file
 /config/newrelic.yml
+
+# ignore key file
+rootkey.csv
