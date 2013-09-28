@@ -1,0 +1,21 @@
+		<div class="span3">
+			<div id="my-links" class="well sidebar-nav">
+				<ul class="nav nav-list">
+					<li class="nav-header">
+						Control Panel
+					</li>
+					<li id="projects-link" class="inactive">
+						<%= link_to 'Projects', dashboard_path(:link => 'projects'), remote: true %>
+					</li>
+					<li id="blogs-link" class="inactive">
+						<%= link_to 'Blogs', dashboard_path(:link => 'blogs'), remote: true %>
+					</li>
+					<li id="custompages-link" class="inactive">
+						<%= link_to 'Custom Category', dashboard_path(:link => 'custompages'), remote: true %>
+					</li>
+					<li id="about-scratch-link" class="inactive">
+						<%= link_to 'About Scratch CMS', dashboard_path(:link => 'about'), remote: true %>
+					</li>
+				</ul>
+			</div>
+		</div>

@@ -1,0 +1,36 @@
+<% provide(:mode, 'management') %>
+<% provide(:title, "Edit user") %> 
+
+<div class="container-fluid">
+  <div class="row-fluid">
+    <%= render 'layouts/sidebar' %>
+    <div class="span8">
+        <div class="account-settings">
+            <h1>Update Your Profile</h1>
+
+            <%= form_for(@user) do |f| %>
+            <%= render 'shared/error_messages', object: f.object %>
+
+            <%= f.label :name %>
+            <%= f.text_field :name %>
+
+            <%= f.label :username %>
+            <%= f.text_field :username %>
+
+            <%= f.label :email %>
+            <%= f.text_field :email %>
+
+            <%= f.label :password, "New Password" %>
+            <%= f.password_field :password %>
+
+            <%= f.label :password_confirmation, "Confirm New Password" %>
+            <%= f.password_field :password_confirmation %>
+
+            <br>
+
+            <%= f.submit "Save changes", class: "btn btn-large btn-success" %>
+            <% end %>
+        </div>
+    </div>
+  </div>
+</div>  

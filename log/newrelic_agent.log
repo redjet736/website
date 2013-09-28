@@ -1,0 +1,109 @@
+# Logfile created on 2013-08-23 18:16:04 -0700 by logger.rb/36483
+[08/23/13 18:16:04 -0700 ubuntu (31027)] INFO : Starting the New Relic agent in "development" environment.
+[08/23/13 18:16:04 -0700 ubuntu (31027)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[08/23/13 18:16:04 -0700 ubuntu (31027)] INFO : Reading configuration from config/newrelic.yml
+[08/23/13 18:16:04 -0700 ubuntu (31027)] INFO : Enabling the Request Sampler.
+[08/23/13 18:16:04 -0700 ubuntu (31027)] INFO : Environment: development
+[08/23/13 18:16:04 -0700 ubuntu (31027)] INFO : Dispatcher: webrick
+[08/23/13 18:16:04 -0700 ubuntu (31027)] INFO : Application: Scratch CMS
+[08/23/13 18:16:04 -0700 ubuntu (31027)] WARN : Agent configured not to send data in this environment.
+[08/23/13 18:16:04 -0700 ubuntu (31027)] INFO : Installing Unicorn instrumentation
+[08/23/13 18:16:04 -0700 ubuntu (31027)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[08/23/13 18:16:04 -0700 ubuntu (31027)] INFO : Installing Net instrumentation
+[08/23/13 18:16:04 -0700 ubuntu (31027)] INFO : Installing deferred Rack instrumentation
+[08/23/13 18:16:04 -0700 ubuntu (31027)] INFO : Installing Rails4 Error instrumentation
+[08/23/13 18:16:04 -0700 ubuntu (31027)] INFO : Installing Rails 4 Controller instrumentation
+[08/23/13 18:16:04 -0700 ubuntu (31027)] INFO : Installing Rails 4 view instrumentation
+[08/23/13 18:16:04 -0700 ubuntu (31027)] INFO : Installing ActiveRecord 4 instrumentation
+[08/23/13 18:16:04 -0700 ubuntu (31027)] INFO : Finished instrumentation
+[08/23/13 18:16:04 -0700 ubuntu (31027)] INFO : Doing deferred dependency-detection before Rack startup
+[08/23/13 18:29:53 -0700 ubuntu (31456)] INFO : Starting the New Relic agent in "development" environment.
+[08/23/13 18:29:53 -0700 ubuntu (31456)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[08/23/13 18:29:53 -0700 ubuntu (31456)] INFO : Reading configuration from config/newrelic.yml
+[08/23/13 18:29:53 -0700 ubuntu (31456)] INFO : Enabling the Request Sampler.
+[08/23/13 18:29:53 -0700 ubuntu (31456)] INFO : Environment: development
+[08/23/13 18:29:53 -0700 ubuntu (31456)] INFO : Dispatcher: webrick
+[08/23/13 18:29:53 -0700 ubuntu (31456)] INFO : Application: Scratch CMS
+[08/23/13 18:29:53 -0700 ubuntu (31456)] WARN : Agent configured not to send data in this environment.
+[08/23/13 18:29:53 -0700 ubuntu (31456)] INFO : Installing Unicorn instrumentation
+[08/23/13 18:29:53 -0700 ubuntu (31456)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[08/23/13 18:29:53 -0700 ubuntu (31456)] INFO : Installing Net instrumentation
+[08/23/13 18:29:53 -0700 ubuntu (31456)] INFO : Installing deferred Rack instrumentation
+[08/23/13 18:29:53 -0700 ubuntu (31456)] INFO : Installing Rails4 Error instrumentation
+[08/23/13 18:29:53 -0700 ubuntu (31456)] INFO : Installing Rails 4 Controller instrumentation
+[08/23/13 18:29:53 -0700 ubuntu (31456)] INFO : Installing Rails 4 view instrumentation
+[08/23/13 18:29:53 -0700 ubuntu (31456)] INFO : Installing ActiveRecord 4 instrumentation
+[08/23/13 18:29:53 -0700 ubuntu (31456)] INFO : Finished instrumentation
+[08/23/13 18:29:53 -0700 ubuntu (31456)] INFO : Doing deferred dependency-detection before Rack startup
+[08/23/13 18:41:10 -0700 ubuntu (31928)] INFO : Starting the New Relic agent in "development" environment.
+[08/23/13 18:41:10 -0700 ubuntu (31928)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[08/23/13 18:41:10 -0700 ubuntu (31928)] INFO : Reading configuration from config/newrelic.yml
+[08/23/13 18:41:10 -0700 ubuntu (31928)] INFO : Enabling the Request Sampler.
+[08/23/13 18:41:10 -0700 ubuntu (31928)] INFO : Environment: development
+[08/23/13 18:41:10 -0700 ubuntu (31928)] INFO : Dispatcher: webrick
+[08/23/13 18:41:10 -0700 ubuntu (31928)] INFO : Application: Scratch CMS
+[08/23/13 18:41:10 -0700 ubuntu (31928)] WARN : Agent configured not to send data in this environment.
+[08/23/13 18:41:11 -0700 ubuntu (31928)] INFO : Installing Unicorn instrumentation
+[08/23/13 18:41:11 -0700 ubuntu (31928)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[08/23/13 18:41:11 -0700 ubuntu (31928)] INFO : Installing Net instrumentation
+[08/23/13 18:41:11 -0700 ubuntu (31928)] INFO : Installing deferred Rack instrumentation
+[08/23/13 18:41:11 -0700 ubuntu (31928)] INFO : Installing Rails4 Error instrumentation
+[08/23/13 18:41:11 -0700 ubuntu (31928)] INFO : Installing Rails 4 Controller instrumentation
+[08/23/13 18:41:11 -0700 ubuntu (31928)] INFO : Installing Rails 4 view instrumentation
+[08/23/13 18:41:11 -0700 ubuntu (31928)] INFO : Installing ActiveRecord 4 instrumentation
+[08/23/13 18:41:11 -0700 ubuntu (31928)] INFO : Finished instrumentation
+[08/23/13 18:41:11 -0700 ubuntu (31928)] INFO : Doing deferred dependency-detection before Rack startup
+[09/28/13 11:51:36 -0700 ubuntu (43314)] INFO : Starting the New Relic agent in "development" environment.
+[09/28/13 11:51:36 -0700 ubuntu (43314)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/28/13 11:51:36 -0700 ubuntu (43314)] INFO : Reading configuration from config/newrelic.yml
+[09/28/13 11:51:36 -0700 ubuntu (43314)] INFO : Enabling the Request Sampler.
+[09/28/13 11:51:36 -0700 ubuntu (43314)] INFO : Environment: development
+[09/28/13 11:51:36 -0700 ubuntu (43314)] INFO : Dispatcher: webrick
+[09/28/13 11:51:36 -0700 ubuntu (43314)] INFO : Application: Scratch CMS
+[09/28/13 11:51:36 -0700 ubuntu (43314)] WARN : Agent configured not to send data in this environment.
+[09/28/13 11:51:36 -0700 ubuntu (43314)] INFO : Installing Unicorn instrumentation
+[09/28/13 11:51:36 -0700 ubuntu (43314)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[09/28/13 11:51:36 -0700 ubuntu (43314)] INFO : Installing Net instrumentation
+[09/28/13 11:51:36 -0700 ubuntu (43314)] INFO : Installing deferred Rack instrumentation
+[09/28/13 11:51:36 -0700 ubuntu (43314)] INFO : Installing Rails4 Error instrumentation
+[09/28/13 11:51:36 -0700 ubuntu (43314)] INFO : Installing Rails 4 Controller instrumentation
+[09/28/13 11:51:36 -0700 ubuntu (43314)] INFO : Installing Rails 4 view instrumentation
+[09/28/13 11:51:36 -0700 ubuntu (43314)] INFO : Installing ActiveRecord 4 instrumentation
+[09/28/13 11:51:36 -0700 ubuntu (43314)] INFO : Finished instrumentation
+[09/28/13 11:51:37 -0700 ubuntu (43314)] INFO : Doing deferred dependency-detection before Rack startup
+[09/28/13 11:53:02 -0700 ubuntu (43599)] INFO : Starting the New Relic agent in "development" environment.
+[09/28/13 11:53:02 -0700 ubuntu (43599)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/28/13 11:53:02 -0700 ubuntu (43599)] INFO : Reading configuration from config/newrelic.yml
+[09/28/13 11:53:02 -0700 ubuntu (43599)] INFO : Enabling the Request Sampler.
+[09/28/13 11:53:02 -0700 ubuntu (43599)] INFO : Environment: development
+[09/28/13 11:53:02 -0700 ubuntu (43599)] INFO : Dispatcher: webrick
+[09/28/13 11:53:02 -0700 ubuntu (43599)] INFO : Application: Scratch CMS
+[09/28/13 11:53:02 -0700 ubuntu (43599)] WARN : Agent configured not to send data in this environment.
+[09/28/13 11:53:02 -0700 ubuntu (43599)] INFO : Installing Unicorn instrumentation
+[09/28/13 11:53:02 -0700 ubuntu (43599)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[09/28/13 11:53:02 -0700 ubuntu (43599)] INFO : Installing Net instrumentation
+[09/28/13 11:53:02 -0700 ubuntu (43599)] INFO : Installing deferred Rack instrumentation
+[09/28/13 11:53:02 -0700 ubuntu (43599)] INFO : Installing Rails4 Error instrumentation
+[09/28/13 11:53:02 -0700 ubuntu (43599)] INFO : Installing Rails 4 Controller instrumentation
+[09/28/13 11:53:02 -0700 ubuntu (43599)] INFO : Installing Rails 4 view instrumentation
+[09/28/13 11:53:02 -0700 ubuntu (43599)] INFO : Installing ActiveRecord 4 instrumentation
+[09/28/13 11:53:02 -0700 ubuntu (43599)] INFO : Finished instrumentation
+[09/28/13 11:53:02 -0700 ubuntu (43599)] INFO : Doing deferred dependency-detection before Rack startup
+[09/28/13 11:57:27 -0700 ubuntu (43803)] INFO : Starting the New Relic agent in "development" environment.
+[09/28/13 11:57:27 -0700 ubuntu (43803)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/28/13 11:57:27 -0700 ubuntu (43803)] INFO : Reading configuration from config/newrelic.yml
+[09/28/13 11:57:27 -0700 ubuntu (43803)] INFO : Enabling the Request Sampler.
+[09/28/13 11:57:27 -0700 ubuntu (43803)] INFO : Environment: development
+[09/28/13 11:57:27 -0700 ubuntu (43803)] INFO : Dispatcher: webrick
+[09/28/13 11:57:27 -0700 ubuntu (43803)] INFO : Application: Scratch CMS
+[09/28/13 11:57:27 -0700 ubuntu (43803)] WARN : Agent configured not to send data in this environment.
+[09/28/13 11:57:27 -0700 ubuntu (43803)] INFO : Installing Unicorn instrumentation
+[09/28/13 11:57:27 -0700 ubuntu (43803)] INFO : Detected Unicorn, please see additional documentation: https://newrelic.com/docs/troubleshooting/im-using-unicorn-and-i-dont-see-any-data
+[09/28/13 11:57:27 -0700 ubuntu (43803)] INFO : Installing Net instrumentation
+[09/28/13 11:57:27 -0700 ubuntu (43803)] INFO : Installing deferred Rack instrumentation
+[09/28/13 11:57:27 -0700 ubuntu (43803)] INFO : Installing Rails4 Error instrumentation
+[09/28/13 11:57:27 -0700 ubuntu (43803)] INFO : Installing Rails 4 Controller instrumentation
+[09/28/13 11:57:27 -0700 ubuntu (43803)] INFO : Installing Rails 4 view instrumentation
+[09/28/13 11:57:27 -0700 ubuntu (43803)] INFO : Installing ActiveRecord 4 instrumentation
+[09/28/13 11:57:27 -0700 ubuntu (43803)] INFO : Finished instrumentation
+[09/28/13 11:57:27 -0700 ubuntu (43803)] INFO : Doing deferred dependency-detection before Rack startup

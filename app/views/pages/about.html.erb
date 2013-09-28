@@ -1,0 +1,12 @@
+<% if params[:mode] == 'main' %>
+	<% provide(:title, 'About') %>
+	<div class="container-content">
+<% else %>
+	<div class="dashboard-content">
+<% end %>
+	<%= image_tag asset_path("ScratchCMS.png"), :class => "centeredimage", 'width' => '200dp' %>
+	<br>
+	<p>Scratch CMS was an idea that Jack Chan and Andy Pierce had after a couple drinks in a Mexican bar one night. It was such a cool and useful idea that they decided to make it happen. The resulting content management system is a foundation for which hackers with just a tiny, tiny bit of Ruby on Rails experience can quickly create personal websites.</p>
+
+	<p>After the initial setup that might be a little tedious, it's really easy to deploy and manage a website. Essentially, download the project, customize the home page, upload it to Heroku, and then create and manage your content without needing to look at code or bust out any text editors nor terminals/command prompts.</p>
+</div>

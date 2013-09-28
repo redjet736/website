@@ -1,0 +1,32 @@
+<% provide(:title, 'Home') %>
+<div class="container-main">
+	<div class="featurette">
+		<%= image_tag asset_path("ScratchCMS.png"), :class => "featurette-image pull-right", 'width' => '400dp', 'align' => 'top' %>
+		<h2 class="featurette-heading">
+			Under construction, check back later!
+		</h2>
+	</div>
+	<hr>
+
+	<!-- Description Blocks -->
+	<div class="row-fluid">
+		<div class="span4">
+		  <h2>Maintainable</h2>
+		  <p>Managing your website is straightforward and clear when you use Scratch CMS. Let Scratch CMS take care of the backend so that you can focus on content creation.</p>
+		</div>
+		<div class="span4">
+		  <h2>Easy to Use</h2>
+		  <p>No coding. No text editors. Once you have your website up on Heroku, all you have to work with is Scratch CMS, which has clean design and is user friendly.</p>
+		</div>
+		<div class="span4">
+		  <h2>Free</h2>
+		  <p>Scratch CMS is free for personal or commercial use. If you happen to meet the creators (Jack or Andy), buy them a drink or two.</p>
+		</div>
+	</div>
+
+	<hr>
+
+	<div class="button-centered">
+	<%= link_to 'Get it!', 'https://github.com/jchan172/scratch-cms' , class: "btn btn-large btn-success" %>
+	</div>
+</div>

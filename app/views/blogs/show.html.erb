@@ -1,0 +1,28 @@
+<% provide :title, @blog.title %>
+
+<div class="container-content">
+	<h1><%= @blog.title %></h1>
+	<%= @blog.content.html_safe %>
+	<br>
+  <br>
+	<% @blogentries.each do |blogentry| %>
+    <% if blogentry.draft == false %>
+      <div class="row-fluid">
+          <div class="page-list">
+            <h3>
+              <%= blogentry.title %>
+            </h3>
+
+            <p>
+              <i>Posted at <%= blogentry.created_at.strftime('%Y %B %d %I:%M %P')%></i>
+            </p>
+            <p>
+              <%= blogentry.content.html_safe %>
+            </p>
+          </div>
+          <!--/span-->
+        </div>
+    <% end %>
+  <% end %>
+	<br>
+</div>

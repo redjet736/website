@@ -1,0 +1,29 @@
+<% provide(:mode, 'management') %>
+<% provide(:title, 'Sign up') %>
+
+<%= image_tag asset_path("ScratchCMS.png"), :class => "centeredimage", 'width' => '200dp' %>
+<h1> Create Your Account</h1>
+<div class="account-settings">
+  <%= form_for(@user) do |f| %>
+    <%= render 'shared/error_messages', object: f.object %>
+
+    <%= f.label :name %>
+    <%= f.text_field :name, :autofocus => true %>
+
+    <%= f.label :username %>
+    <%= f.text_field :username %>
+
+    <%= f.label :email %>
+    <%= f.text_field :email %>
+
+    <%= f.label :password %>
+    <%= f.password_field :password %>
+
+    <%= f.label :password_confirmation, "Confirmation" %>
+    <%= f.password_field :password_confirmation %>
+
+    <br>
+
+    <%= f.submit "Create my account", class: "btn btn-large btn-success" %>
+  <% end %>
+</div>
