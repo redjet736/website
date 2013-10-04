@@ -23,8 +23,12 @@
 
           <br>
 
-          <div class="draft-checkbox-container">
-              <%= f.check_box :draft, :class => "pull-left" %> <%=f.label "Draft", :class => "pull-right" %>
+          <div class="field-checkbox-container">
+              <%= f.check_box :draft, :class => "pull-left" %> <%=f.label "Draft" %>
+          </div>
+
+          <div class="field-checkbox-container">
+              <%= f.check_box :current, :class => "pull-left" %> <%=f.label "Current" %>
           </div>
 
           <br>

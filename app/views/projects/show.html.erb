@@ -3,4 +3,7 @@
 <div class="container-content">
 	<h1><%= @project.title %> </h1>
 	<p><%= @project.content.html_safe %> </p>
+    <% if @project.current %>
+        <p> I am currently working on this project. </p>
+    <% end %>
 </div>

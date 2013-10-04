@@ -60,7 +60,6 @@ body {
   }
 
 
-
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -404,9 +403,9 @@ pre {
   width: 100%;
 }
 
-.draft-checkbox-container {
+.field-checkbox-container {
   display: block;
-  width: 55px;
+  width: auto;
 }
 
 .isolation-container {
@@ -428,6 +427,22 @@ pre {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.project-current {
+
+  a:link { 
+    color: #5F9F9F;
+  }
+
+  a:visited { 
+    color: #5F9F9F;
+  }
+
+  a:active { 
+    color: #5F9F9F;
+  }
+
 }
 
 /* dashboard footer */

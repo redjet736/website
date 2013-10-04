@@ -16,9 +16,15 @@
   	          <ul class="dropdown-menu">
                 <% User.first.projects.each do |project| %>
                   <% if project.draft == false %>
-                    <li>
-                      <%= link_to project.title, project %>
-                    </li>
+                    <% if project.current == true %>
+                      <li class="project-current">
+                        <%= link_to project.title, project %>
+                      </li>
+                    <% else %>
+                      <li>
+                        <%= link_to project.title, project %>
+                      </li>
+                    <% end %>
                   <% end %>
                 <% end %>
               </ul>
