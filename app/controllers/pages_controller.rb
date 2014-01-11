@@ -1,12 +1,26 @@
 class PagesController < ApplicationController
-    before_action :signed_in_user
-    
-      def home
-      end
+  include S3Helper
 
-      def about
-      end
+  before_action :signed_in_user
 
-      def error
-      end
+  def home
+  end
+
+  def about
+
+  end
+
+  def resume
+
+    resume_data = get_resume_data
+
+    send_data resume_data, :filename => 'resume.pdf',
+                           :disposition => 'inline'
+
+
+  end
+
+  def error
+  end
+
 end

@@ -45,7 +45,8 @@ def generate_test_curl():
 def generate_resume_curl():
     time = now()
     path = "/updated_resume.pdf"
-    host = "andys-website-assets.s3.amazonaws.com"
+    # host = "andys-website-assets.s3.amazonaws.com"
+    host = "http://andys-website-assets.s3.amazonaws.com"
     formatted_path = "/andys-website-assets/updated_resume.pdf"
 
     s = string_to_sign(time, formatted_path)

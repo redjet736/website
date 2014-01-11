@@ -13,7 +13,8 @@ ScratchCms::Application.routes.draw do
 
   root to: 'pages#home'
 
-  match '/about' => 'pages#about', :mode => 'main',    via: 'get'
+  match '/about' => 'pages#about',  via: 'get'
+  match '/about/resume' => 'pages#resume', via: 'get'
   match '/error' => 'pages#error',    via: 'get'
 
   match '/signup',  to: 'users#new',    via: 'get'
