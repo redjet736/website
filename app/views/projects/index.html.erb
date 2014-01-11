@@ -1,7 +1,7 @@
 <%= link_to 'New Project', new_project_path, 'data-no-turbolink' => true, :class => "btn btn-large btn-primary" %>
 <br>
 <br>
-<% projects.each do |project| %>
+<% @projects.each do |project| %>
   <div class="row-fluid">
       <div class="page-list">
         <h2>

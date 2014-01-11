@@ -33,6 +33,7 @@ group :development, :test do
 	gem 'localtunnel' # expose your localhost server to the public web
 	gem 'meta_request' # shows information about app requests in browser (remember also need chrome extension)
 	gem 'railroady' # generates UML diagrams
+    gem 'binding_of_caller' # enables REPL and local/instance variable inspection when app crashes.
 end
 
 # i don't always test my code, but when i do, i do it in production
