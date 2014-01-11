@@ -24,7 +24,12 @@ def auth(key, sig):
 
 def sign(key, s):
     h = hmac.new(key, s.encode('utf8'), hashlib.sha1).digest()
+    print "hmac'd string:\n" + repr(h) + ">\n"
     return base64.encodestring(h)[:-1] # remove \n at end of string
+
+def hmac_sign(key, s):
+    h = hmac.new(key.encode('utf8'), s.encode('utf8'), hashlib.sha1).digest()
+    return h
 
 def generate_test_curl():
     time = "Tue, 27 Mar 2007 19:36:42 +0000"
@@ -33,7 +38,9 @@ def generate_test_curl():
     formatted_path = "/johnsmith/photos/puppy.jpg"
 
     s = string_to_sign(time, formatted_path)
+   
     signed = sign(test_secret, s)
+    
     auth_header = auth(test_id, signed)
 
     query = "curl -H \"Authorization: " + auth_header + "\" "
@@ -50,7 +57,9 @@ def generate_resume_curl():
     formatted_path = "/andys-website-assets/updated_resume.pdf"
 
     s = string_to_sign(time, formatted_path)
+    print "string to sign:\n<" + repr(s) + ">\n"
     signed = sign(access_secret, s)
+    print "signed string:\n<" + repr(signed) + ">\n"
     auth_header = auth(access_id, signed)
 
     query = "curl -H \"Authorization: " + auth_header + "\" "
