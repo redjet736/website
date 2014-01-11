@@ -1,10 +1,12 @@
 class PagesController < ApplicationController
-  def home
-  end
+    before_action :signed_in_user
+    
+      def home
+      end
 
-  def about
-  end
+      def about
+      end
 
-  def error
-  end
+      def error
+      end
 end

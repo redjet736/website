@@ -1,5 +1,5 @@
 class BlogsController < ApplicationController
-  before_action :signed_in_user, :except => [:show]
+  before_action :signed_in_user
   
   def new
     @blog = Blog.new

@@ -28,4 +28,8 @@ module SessionsHelper
 		@current_user = nil
 		cookies.delete(:auth_token)
 	end
+
+	def signed_in_user
+      redirect_to login_url, notice: "Please sign in." unless signed_in?
+    end
 end
